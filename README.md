@@ -6,8 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.11-green)
 
-Detect AI-generated and manipulated facial images (deepfakes) using deep learning. Built with TensorFlow/Keras, leveraging transfer learning (MobileNetV2), advanced augmentation, and robust evaluation metrics.
-
+Detects AI-generated and altered facial images using deep learning techniques. The model is implemented with TensorFlow/Keras and applies transfer learning with MobileNetV2, along with data augmentation and comprehensive evaluation metrics.
 ---
 
 
@@ -27,7 +26,7 @@ Detect AI-generated and manipulated facial images (deepfakes) using deep learnin
 ## Project Overview
 
 
-Deepfakes use generative models (GANs, diffusion models) to synthesize realistic human faces. This project uses CNNs and transfer learning to detect subtle artifacts in such images.
+Deepfakes are created using generative techniques such as GANs and diffusion models to produce highly realistic facial images. This project applies convolutional neural networks with transfer learning to identify subtle inconsistencies introduced during synthetic image generation.
 
 ### Real Data Pipeline (Colab Notebook)
 
